@@ -13,6 +13,7 @@
       "npm:@typescript-eslint/utils@^7.14.1": "npm:@typescript-eslint/utils@7.14.1_eslint@8.57.0",
       "npm:changelogithub": "npm:changelogithub@0.13.7",
       "npm:cronstrue": "npm:cronstrue@2.50.0",
+      "npm:eslint": "npm:eslint@9.5.0",
       "npm:eslint@^9.5.0": "npm:eslint@9.5.0"
     },
     "jsr": {
