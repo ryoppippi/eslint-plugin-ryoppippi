@@ -1,5 +1,5 @@
 {
-  "name": "@ryoppippi/",
+  "name": "@ryoppippi/eslint-plugin",
   "version": "0.0.0",
   "tasks": {
     "dev": "deno run --watch mod.ts",
@@ -17,7 +17,11 @@
   },
   "imports": {
     "@cross/test": "jsr:@cross/test@^0.0.9",
-    "@std/assert": "jsr:@std/assert@^0.226.0"
+    "@std/assert": "jsr:@std/assert@^0.226.0",
+    "@types/eslint": "npm:@types/eslint@^8.56.10",
+    "@typescript-eslint/typescript-estree": "npm:@typescript-eslint/typescript-estree@^7.14.1",
+    "@typescript-eslint/utils": "npm:@typescript-eslint/utils@^7.14.1",
+    "eslint": "npm:eslint@^9.5.0"
   },
   "exports": "./mod.ts",
   "publish": {

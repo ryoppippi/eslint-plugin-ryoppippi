@@ -9,7 +9,7 @@ on:
     paths:
       - '**.ts'
       - '.github/workflows/test.yml'
-      - 'deno.jsonc'
+      - 'deno.json'
   pull_request:
     branches:
       - main
