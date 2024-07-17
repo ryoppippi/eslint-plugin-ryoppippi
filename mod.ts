@@ -4,7 +4,7 @@ import denoJson from "./deno.json" with { type: "json" };
 
 import noHttpUrl from "./rules/no-http-url.ts";
 
-const plugin = {
+const plugin: Plugin = {
   meta: {
     name: "ryoppippi",
     version: denoJson.version,
@@ -12,7 +12,7 @@ const plugin = {
   rules: {
     "no-http-url": noHttpUrl,
   },
-} as const satisfies Plugin;
+} as const;
 
 export default plugin;
 
