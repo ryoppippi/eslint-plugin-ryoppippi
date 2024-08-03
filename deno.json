@@ -17,10 +17,10 @@
   },
   "imports": {
     "@cross/test": "jsr:@cross/test@^0.0.9",
-    "@std/assert": "jsr:@std/assert@^0.226.0",
-    "@types/eslint": "npm:@types/eslint@^8.56.10",
-    "@typescript-eslint/typescript-estree": "npm:@typescript-eslint/typescript-estree@^7.14.1",
-    "@typescript-eslint/utils": "npm:@typescript-eslint/utils@^7.14.1",
+    "@std/assert": "jsr:@std/assert@^1.0.0",
+    "@types/eslint": "npm:@types/eslint@^9.0.0",
+    "@typescript-eslint/typescript-estree": "npm:@typescript-eslint/typescript-estree@^8.0.0",
+    "@typescript-eslint/utils": "npm:@typescript-eslint/utils@^8.0.0",
     "eslint": "npm:eslint@^9.5.0"
   },
   "exports": "./mod.ts",
