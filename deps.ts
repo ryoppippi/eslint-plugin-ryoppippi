@@ -1,4 +1,3 @@
-// @deno-types="@types/eslint"
 import * as eslint from "eslint";
 
 export { eslint };

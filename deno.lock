@@ -6,7 +6,6 @@
       "jsr:@cross/test@^0.0.9": "jsr:@cross/test@0.0.9",
       "jsr:@std/assert@^1.0.0": "jsr:@std/assert@1.0.5",
       "jsr:@std/internal@^1.0.3": "jsr:@std/internal@1.0.3",
-      "npm:@types/eslint@^9.0.0": "npm:@types/eslint@9.6.1",
       "npm:@types/node": "npm:@types/node@18.16.19",
       "npm:changelogithub": "npm:changelogithub@0.13.7",
       "npm:cronstrue": "npm:cronstrue@2.50.0",
@@ -108,21 +107,6 @@
           "@nodelib/fs.scandir": "@nodelib/fs.scandir@2.1.5",
           "fastq": "fastq@1.17.1"
         }
-      },
-      "@types/eslint@9.6.1": {
-        "integrity": "sha512-FXx2pKgId/WyYo2jXw63kk7/+TY7u7AziEJxJAnSFzHlqTAS3Ync6SvgYAN/k4/PQpnnVuzoMuVnByKK2qp0ag==",
-        "dependencies": {
-          "@types/estree": "@types/estree@1.0.5",
-          "@types/json-schema": "@types/json-schema@7.0.15"
-        }
-      },
-      "@types/estree@1.0.5": {
-        "integrity": "sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==",
-        "dependencies": {}
-      },
-      "@types/json-schema@7.0.15": {
-        "integrity": "sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==",
-        "dependencies": {}
       },
       "@types/node@18.16.19": {
         "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
@@ -1096,7 +1080,6 @@
     "dependencies": [
       "jsr:@cross/test@^0.0.9",
       "jsr:@std/assert@^1.0.0",
-      "npm:@types/eslint@^9.0.0",
       "npm:@typescript-eslint/typescript-estree@^8.0.0",
       "npm:@typescript-eslint/utils@^8.0.0",
       "npm:eslint@^9.5.0"
